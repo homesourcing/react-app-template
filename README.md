@@ -1,3 +1,44 @@
+## IDE Setup
+
+I recommend either `VSCode` or `WebStorm`.
+For WebStorm users there is an included .idea folder that contains the necessary configuration.
+
+I think you should always be using format on save (prettier) + optimize imports.
+
+## VS Code:
+
+Recommended theme: `One Dark Pro`
+
+Recommended font: `FiraCode Pro`
+
+Recommended file icons: `Material Design Icons`
+
+Recommended plugins: `GitHub Copilot`, `SonarLint`, `i18n Ally`
+
+Shortcuts:
+
+`F1` - Run most commands from one place.
+
+`CTRL + P` - Search for file. Good for quickly opening new things without having to find them through the explorer.
+
+`right click + go to definition` - Very useful for navigating code you are not used to yet.
+
+## WebStorm:
+
+Font, theme, and file icons are all default as it already comes with `JetBrains Mono`
+
+Recommended plugins: `GitHub Copilot`, `SonarLint`, `i18n Ally`
+
+Shortcuts:
+
+`CTRL + Shift + F` - Search for any text on the project.
+
+`Shift + Shift` - Search anywhere for most things such as classes, functions, etc.
+
+`CTRL + P` - Search for file. Good for quickly opening new things without having to find them through the explorer.
+
+`right click + go to definition` - Very useful for navigating code you are not used to yet.
+
 ## Code Quality Stuff
 
 `.github`
@@ -5,10 +46,18 @@
 The dependabot makes sure your project is always up-to-date. This is very important.
 
 The pull request action serves as a basic template for running tests and styling checks before you merge the code.
+You should always open a pull request and let these actions run before you merge your code.
 
 `.husky` - https://typicode.github.io/husky/#/
 
-The template comes pre-configured with Husky and cheks the code quality using the `Google TypeScript Style Guide`.
+The template comes pre-configured with Husky and checks the code quality using the `Google TypeScript Style Guide`.
+
+`Google TypeScript Style Guide` - https://google.github.io/styleguide/tsguide.html
+
+There is a linting setup that basically forces you to follow these conventions.
+
+There are also some example components / pages that serve as a starting point for your project.
+The goal here is to give you an idea on how to structure your project so it's readable as it grows in size.
 
 ## Comes with
 
