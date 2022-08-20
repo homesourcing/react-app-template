@@ -1,10 +1,12 @@
 ## Code Quality Stuff
 
-`dependabot` - from GitHub
+`.github`
 
 The dependabot makes sure your project is always up-to-date. This is very important.
 
-`husky` - https://typicode.github.io/husky/#/
+The pull request action serves as a basic template for running tests and styling checks before you merge the code.
+
+`.husky` - https://typicode.github.io/husky/#/
 
 The template comes pre-configured with Husky and cheks the code quality using the `Google TypeScript Style Guide`.
 
