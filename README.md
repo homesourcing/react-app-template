@@ -35,9 +35,7 @@ Shortcuts:
 
 `Shift + Shift` - Search anywhere for most things such as classes, functions, etc.
 
-`CTRL + P` - Search for file. Good for quickly opening new things without having to find them through the explorer.
-
-`right click + go to definition` - Very useful for navigating code you are not used to yet.
+`CTRL + B` - Very useful for navigating code you are not used to yet. Basically a quicker version of go to definition.
 
 ## Code Quality Stuff
 
@@ -78,19 +76,24 @@ Very nice library for styling components. Lets you write CSS in JS.
 
 Best HTTP client library.
 
-`MirageJS` - https://miragejs.com/quickstarts/react/develop-a-component/
-
-Excellent tool that allows you to mock out the back end. It works both for writing tests and for development.
-
 `react-i18next` - https://react.i18next.com/guides/quick-start
 
 Best library for internationalization. Will likely be needed when working with European clients as they like to have their apps localized.
 
-## Optional (Does not come installed by default)
+`react-router-dom` - https://reactrouter.com/docs/en/v6/getting-started/overview
+
+Routing library that you will need for 99% of single page apps.
 
 `Mantine` - https://mantine.dev/pages/getting-started/
 
-Very nice UI Component kit library based on TypeScript. I would recommend avoiding the use of `@mantine/forms` but everything else is excellent.    
+Very nice UI Component kit library based on TypeScript. I would recommend avoiding the use of `@mantine/forms` but everything else is excellent.
+
+If you don't like Mantine feel free to get rid of it and install something else.
+The pre-installed parts of it are `@mantine/core` and `@mantine/hooks`.
+
+`msw` - https://mswjs.io/docs/
+
+Mock Service Worker is used mainly for mocking out the back end when you're writing integration tests.
 
 ## Available Scripts
 
