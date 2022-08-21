@@ -1,0 +1,10 @@
+{
+  "userTable": {
+    "gender": "Gender",
+    "name": "Name",
+    "country": "Country",
+    "email": "Email",
+    "phone": "Phone",
+    "picture": "Picture"
+  }
+}

@@ -3,3 +3,12 @@
 // expect(element).toHaveTextContent(/react/i)
 // learn more: https://github.com/testing-library/jest-dom
 import '@testing-library/jest-dom';
+
+jest.mock('./i18n', () => ({
+  t: (key: string) => key,
+}));
+
+jest.mock('react-i18next', () => ({
+  useTranslation: () => ({t: (key: string) => key}),
+  Trans: ({children}: any) => children,
+}));

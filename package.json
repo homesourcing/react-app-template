@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mantine/core": "^5.2.0",
+    "@mantine/hooks": "^5.2.0",
     "@tanstack/react-query": "^4.2.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
@@ -12,9 +14,14 @@
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "axios": "^0.27.2",
+    "i18next": "^21.9.1",
+    "i18next-browser-languagedetector": "^6.1.5",
+    "i18next-http-backend": "^1.4.1",
     "prettier": "^2.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-i18next": "^11.18.4",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.5",
     "typescript": "^4.7.4",
@@ -23,7 +30,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --coverage",
     "eject": "react-scripts eject",
     "lint": "gts lint",
     "clean": "gts clean",
@@ -53,10 +60,11 @@
   },
   "devDependencies": {
     "@types/node": "^18.7.8",
+    "@types/styled-components": "^5.1.26",
     "eslint-plugin-react": "^7.30.1",
     "gts": "^3.1.0",
     "husky": "^8.0.1",
-    "miragejs": "^0.1.45",
+    "msw": "^0.44.2",
     "typescript": "^4.0.3"
   }
 }
