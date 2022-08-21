@@ -32,7 +32,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --coverage",
     "eject": "react-scripts eject",
-    "lint": "gts lint",
+    "lint": "eslint '**/*.ts'",
     "clean": "gts clean",
     "compile": "tsc",
     "fix": "gts fix"
